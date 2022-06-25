@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		765CBD452867B4A4000B3C3E /* PersistantStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 765CBD432867B4A4000B3C3E /* PersistantStore.swift */; };
+		765CBD462867B4A4000B3C3E /* UserDefaultsPersistantStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 765CBD442867B4A4000B3C3E /* UserDefaultsPersistantStore.swift */; };
 		BC87D760283A4FC80024F784 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC87D75F283A4FC80024F784 /* AppDelegate.swift */; };
 		BC87D762283A4FC80024F784 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC87D761283A4FC80024F784 /* SceneDelegate.swift */; };
 		BC87D764283A4FC80024F784 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC87D763283A4FC80024F784 /* ViewController.swift */; };
@@ -16,6 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		765CBD432867B4A4000B3C3E /* PersistantStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PersistantStore.swift; sourceTree = "<group>"; };
+		765CBD442867B4A4000B3C3E /* UserDefaultsPersistantStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserDefaultsPersistantStore.swift; sourceTree = "<group>"; };
 		BC87D75C283A4FC80024F784 /* OMABI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OMABI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BC87D75F283A4FC80024F784 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BC87D761283A4FC80024F784 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -37,6 +41,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		765CBD412867B498000B3C3E /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				765CBD422867B4A4000B3C3E /* PersistantStore */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		765CBD422867B4A4000B3C3E /* PersistantStore */ = {
+			isa = PBXGroup;
+			children = (
+				765CBD432867B4A4000B3C3E /* PersistantStore.swift */,
+				765CBD442867B4A4000B3C3E /* UserDefaultsPersistantStore.swift */,
+			);
+			path = PersistantStore;
+			sourceTree = "<group>";
+		};
 		BC87D753283A4FC80024F784 = {
 			isa = PBXGroup;
 			children = (
@@ -56,6 +77,7 @@
 		BC87D75E283A4FC80024F784 /* OMABI */ = {
 			isa = PBXGroup;
 			children = (
+				765CBD412867B498000B3C3E /* Services */,
 				BC87D75F283A4FC80024F784 /* AppDelegate.swift */,
 				BC87D761283A4FC80024F784 /* SceneDelegate.swift */,
 				BC87D763283A4FC80024F784 /* ViewController.swift */,
@@ -138,8 +160,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				765CBD462867B4A4000B3C3E /* UserDefaultsPersistantStore.swift in Sources */,
 				BC87D764283A4FC80024F784 /* ViewController.swift in Sources */,
 				BC87D760283A4FC80024F784 /* AppDelegate.swift in Sources */,
+				765CBD452867B4A4000B3C3E /* PersistantStore.swift in Sources */,
 				BC87D762283A4FC80024F784 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
